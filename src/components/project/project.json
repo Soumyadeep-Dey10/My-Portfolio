@@ -1,0 +1,27 @@
+[
+    {
+      "title": "TaskMate App",
+      "description": "This project aims to provide a tool to create, manage and track tasks easily.",
+      "skills": ["React"],
+      "demo": "https://mytaskmate-sdey.netlify.app/",
+      "source": "https://github.com/Soumyadeep-Dey10/Taskmate-React-App.git",
+      "image": "../../assets/Taskmate.png" 
+    },
+    {
+      "title": "Weather App",
+      "description": "This is a project made to get the weather of any location.",
+      "skills": ["React"],
+      "demo": "https://github.com/Soumyadeep-Dey10/Weather-App.git",
+      "source": "https://github.com/Soumyadeep-Dey10/Weather-App.git",
+      "image": "../../assets/Weather.png" 
+    },
+    {
+      "title": "Tic Tac Toe game",
+      "imageSrc": "projects/project.png",
+      "description": "This is a simple Tic Tac Toe game",
+      "skills": ["Java"],
+      "demo": "https://github.com/Soumyadeep-Dey10/Tic-Tac-Toe-.git",
+      "source": "https://github.com/Soumyadeep-Dey10/Tic-Tac-Toe-.git",
+      "image": "../../assets/Project.png" 
+    }
+  ]

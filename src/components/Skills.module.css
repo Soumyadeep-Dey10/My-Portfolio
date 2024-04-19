@@ -1,0 +1,118 @@
+@import "../vars.css";
+
+.div{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: var(--color-text);
+}
+.heading{
+    font-family: Outfit;
+font-size: 55px;
+font-weight: 700;
+line-height: 44.1px;
+letter-spacing: 0.05em;
+text-align: left;
+color: var(--color-text);
+text-transform:uppercase;
+}
+.java{
+    width: 220px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius:100% ;
+}
+.skillItems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.skillItem{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29.3px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color:var(--color-text);
+}
+.react{
+    width: 220px;
+    height: 210px;
+    margin-bottom: 20px;
+    border-radius:100% ;
+}
+.Mysql{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius:100% ;
+}
+.html{
+    width: 95px;
+    height: 95px;
+    margin-bottom: 20px;
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.python{
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.Css{
+    width: 95px;
+    height: 95px;
+    margin-bottom: 20px;
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.Node{
+    width: 95px;
+    height: 95px;
+    margin-bottom: 20px;
+    background-color: var(--color-secondary);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+@media screen and (max-width:830px) {
+    .div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .p{
+        text-align: center;
+    }
+    .html{
+        height: 150px;
+        width: 150px;
+    }
+    .Css{
+        height: 150px;
+        width: 150px;
+    }
+}
