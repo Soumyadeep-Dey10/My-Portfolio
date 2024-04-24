@@ -1,17 +1,29 @@
 import React, { useState } from "react";
 import icon from '../assets/Navbar.png';
+import closeicon from '../assets/closeIcon.png';
 import styles from './Navbar.module.css';
 
-const Navbar = () => {
+
+
+
+export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="#">
+      <a className={styles.title} href="/">
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img className={styles.menuBtn} src={menuOpen ? null :icon} onClick={()=>setMenuOpen(!menuOpen)} 
+        <img
+          className={styles.menuBtn}
+          src={
+            menuOpen
+              ? closeicon
+              : icon
+          }
+          alt="menu-button"
+          onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
@@ -35,4 +47,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar

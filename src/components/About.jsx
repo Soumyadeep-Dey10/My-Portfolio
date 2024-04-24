@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./About.module.css"
-import AboutImg from '../assets/images.jpeg';
+import AboutImg from '../assets/AboutImg.jpg';
 import Frontend from '../assets/Frontend.png';
 import Back from "../assets/Backend.png"
-import ui from "../assets/Ui.png";
+
 
 
  const About = () => {

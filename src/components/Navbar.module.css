@@ -79,14 +79,4 @@
     display: flex;
     z-index: 1;
   }
-  .menuItems {
-    display: none; /* Initially hide the menu items */
-    /* Other styles... */
-  }
-  
-  .menuOpen .menuItems {
-    display: flex; /* Display the menu items when the menu is open */
-    /* Other styles... */
-  }
-  
 }
