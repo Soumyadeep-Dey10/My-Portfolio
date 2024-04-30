@@ -11,21 +11,23 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-align: center;
 }
 .heading{
-    font-size: 72px;
+    font-size: 6vw;
     font-weight: 800;
-    line-height: 84.38px;
-    text-align: left;
+    line-height: 1.2;
+    /* text-align: left; */
     color: var(--color-text);
     font-family: var(--font-roboto);
+    white-space: nowrap;
 }
 .p{
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 400;
-    line-height: 35.16px;
-    text-align: left;
+    line-height: 1.5;
+    /* text-align: left; */
     color: var(--color-text);
 }
 .contactBtn{
@@ -109,6 +111,7 @@
     }
     .content{
         align-items: center;
+        gap: 10px;
     } 
     .aboutButton{
         display: flex;
