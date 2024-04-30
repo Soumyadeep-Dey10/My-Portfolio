@@ -1,5 +1,5 @@
 import React from 'react'
-import java from '../assets/java.jpg'
+import java from '../assets/java-removebg-preview.png'
 import react from '../assets/React.png'
 import python from '../assets/Python.png'
 import Mysql from '../assets/Mysql.png'
