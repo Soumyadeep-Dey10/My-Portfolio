@@ -28,9 +28,33 @@
 
 .menuItems {
   display: flex;
-  gap: 47px;
+  gap: 10px;
   list-style: none;
 }
+.menuItems a {
+  font-size: 25px;
+  color: var(--color-text);
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.menuItems a:hover {
+  background-size: 100% 100%;
+}
+
 
 .menuItems a {
   font-size: 25px;
@@ -63,7 +87,7 @@
     display: none;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
+    gap: 5px;
     border-radius: 10px;
     background: rgb(25, 55, 109);
     background: linear-gradient(
