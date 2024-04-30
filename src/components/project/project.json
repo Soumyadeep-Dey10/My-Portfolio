@@ -11,7 +11,7 @@
       "title": "Weather App",
       "description": "This is a project made to get the weather of any location.",
       "skills": ["React"],
-      "demo": "https://github.com/Soumyadeep-Dey10/Weather-App.git",
+      "demo": "https://getuweather.netlify.app/",
       "source": "https://github.com/Soumyadeep-Dey10/Weather-App.git",
       "image": "../../assets/Weather.png" 
     },
