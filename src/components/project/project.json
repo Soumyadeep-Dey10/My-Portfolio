@@ -23,5 +23,24 @@
       "demo": "https://github.com/Soumyadeep-Dey10/Tic-Tac-Toe-.git",
       "source": "https://github.com/Soumyadeep-Dey10/Tic-Tac-Toe-.git",
       "image": "../../assets/Project.png" 
+    },
+    {
+      
+        "title": "E-Corner Management System",
+        "imageSrc": "projects/project.png",
+        "description": "Users can track there bank transactions and details",
+        "skills": ["Java", "MySQL"],
+        "demo": "https://github.com/Soumyadeep-Dey10/Tic-Tac-Toe-.git",
+        "source": "https://github.com/Soumyadeep-Dey10/E-corner-Management-System",
+        "image": "../../assets/Project.png" 
+    },
+    {
+      "title": "PrepMonk",
+        "imageSrc": "projects/project.png",
+        "description": "This ",
+        "skills": ["Java", "MySQL"],
+        "demo": "https://prepmonk.onrender.com/",
+        "source": "https://github.com/Soumyadeep-Dey10/PrepMonk",
+        "image": "../../assets/Project.png" 
     }
   ]
