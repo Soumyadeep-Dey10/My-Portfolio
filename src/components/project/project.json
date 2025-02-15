@@ -30,17 +30,17 @@
         "imageSrc": "projects/project.png",
         "description": "Users can track there bank transactions and details",
         "skills": ["Java", "MySQL"],
-        "demo": "https://github.com/Soumyadeep-Dey10/Tic-Tac-Toe-.git",
+        "demo": "https://github.com/Soumyadeep-Dey10/E-corner-Management-System",
         "source": "https://github.com/Soumyadeep-Dey10/E-corner-Management-System",
         "image": "../../assets/Project.png" 
     },
     {
       "title": "PrepMonk",
         "imageSrc": "projects/project.png",
-        "description": "This ",
-        "skills": ["Java", "MySQL"],
-        "demo": "https://prepmonk.onrender.com/",
+        "description": "This application helps students prepare for a variety of exams, including entrance exams and placement tests.Students can prepare for any subject, such as computer science or aptitude and take mock tests with their selective topics and Real-time feedback and scoring based on their performance in mock tests",
+        "skills": ["MongoDb", "Express","React","Node Js"],
+        "demo": "https://prepmonk-seven.vercel.app/",
         "source": "https://github.com/Soumyadeep-Dey10/PrepMonk",
-        "image": "../../assets/Project.png" 
+        "image": "../../assets/PrepMonk.png" 
     }
   ]
