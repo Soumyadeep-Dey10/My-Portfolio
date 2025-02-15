@@ -37,7 +37,7 @@
     {
       "title": "PrepMonk",
         "imageSrc": "projects/project.png",
-        "description": "This application helps students prepare for a variety of exams, including entrance exams and placement tests.Students can prepare for any subject, such as computer science or aptitude and take mock tests with their selective topics and Real-time feedback and scoring based on their performance in mock tests",
+        "description": "This application helps students prepare for a variety of exams, including entrance exams and placement tests and realtime feedbacks",
         "skills": ["MongoDb", "Express","React","Node Js"],
         "demo": "https://prepmonk-seven.vercel.app/",
         "source": "https://github.com/Soumyadeep-Dey10/PrepMonk",
