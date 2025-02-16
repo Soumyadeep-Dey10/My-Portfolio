@@ -1,3 +1,4 @@
+
 [
     {
       "title": "TaskMate App",
@@ -41,6 +42,6 @@
         "skills": ["MongoDb", "Express","React","Node Js"],
         "demo": "https://prepmonk-seven.vercel.app/",
         "source": "https://github.com/Soumyadeep-Dey10/PrepMonk",
-        "image": "../../assets/PrepMonk.png" 
+        "image": "/vite.svg" 
     }
   ]
