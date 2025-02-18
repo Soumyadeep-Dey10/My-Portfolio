@@ -6,13 +6,15 @@ import Mysql from '../assets/Mysql.png'
 import Html from '../assets/Html2.png'
 import css from '../assets/Css2.png'
 import Node from '../assets/Node.png'
+import Express from "../assets/express.png"
+import Mongodb from "../assets/Mongo.png"
 import styles from './Skills.module.css';
+
+
 const Skills = () => {
   return (
     <div className={styles.div} id="skills">
         <h1 className={styles.heading}>Skills</h1>
-
-      
 
         <div className={styles.skillItems}>
 
@@ -51,6 +53,17 @@ const Skills = () => {
         <img className={styles.Node}src={Node}></img>
         <p>Node Js</p>
         </div>
+
+        <div className={styles.skillItem}>
+        <img className={styles.Css}src={Express}></img>
+        <p>Express Js</p>
+        </div>
+
+        <div className={styles.skillItem}>
+        <img className={styles.Css}src={Mongodb}></img>
+        <p>Mongodb</p>
+        </div>
+
         </div>
         </div>
         

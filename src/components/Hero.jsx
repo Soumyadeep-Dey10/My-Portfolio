@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Hero.module.css'
 import photo from '../assets/Photo5.jpg';
-import cv from "../assets/Soumyadeep_resume.pdf"
+import cv from "../assets/Soumyadeep_resume Latest.pdf"
 const Hero = () => {
   return (
     <section className={styles.section}>
